@@ -1,30 +1,33 @@
-x = input("Please enter your name person 1")
-y = input(int("please enter your lunch menu cost"))
-z = input(int("please enter your drink cost"))
+x = input("Please enter your name person 1 ")
+y = input("please enter your lunch menu cost ")
+z = input("please enter your drink cost ")
 
-w = input("Please enter your name person 2")
-e = input(int("please enter your lunch menu cost"))
-q = input(int("please enter your drink cost"))
+w = input("Please enter your name person 2 ")
+e = input("please enter your lunch menu cost " )
+q = input("please enter your drink cost ")
 
-o = input("Please enter your name person 3")
-u = input(int("please enter your lunch menu cost"))
-p = input(int("please enter your drink cost"))
+o = input("Please enter your name person 3 ")
+u = input("please enter your lunch menu cost ")
+p = input("please enter your drink cost ")
 
+j = int(y) + int(z)
+a = int(e) + int(q)
+m = int(u) + int(p)
 
-j = (y + z) * 1.1
+po = float(j)*1.1
 
-l = (e + q) * 1.1
+iu = float(a)*1.1
 
-m = (u + p) * 1.1
+hi = float(m)*1.1
 
-v = (j + l + m) * 1.2
+v = float(po + iu + hi)*1.2
 
-print(x, "'s total is", j)
+print("Person 1: " + x + " has to pay " + str(po))
 
-print(w, "'s total is", l)
+print("Person 2: " + w + " has to pay " + str(iu))
 
-print(o, "'s total is", m)
+print("Person 3: " + o + " has to pay " + str(hi))
 
-print(" your total is", v)
+print("The total cost is " + str(v))
 
 
