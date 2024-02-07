@@ -39,19 +39,19 @@ print("The total cost is " + str(v))
 
 
 
-e1 = intput("employee one enter your name ")
+e1 = input("employee one enter your name ")
 e1s = input("enter your salary ")
 
-e2 = intput("employee two enter your name ")
+e2 = input("employee two enter your name ")
 e2s = input("enter your salary ")
 
-e3 = intput("employee three enter your name ")
+e3 = input("employee three enter your name ")
 e3s = input("enter your salary ")
 
-e4 = intput("employee four enter your name ")
+e4 = input("employee four enter your name ")
 e4s = input("enter your salary ")
 
-e5 = intput("employee five enter your name ")
+e5 = input("employee five enter your name ")
 e5s = input("enter your salary ")
 
 
@@ -59,16 +59,16 @@ e5s = input("enter your salary ")
 ts = int(e1s) + int(e2s) + int(e3s) + int(e4s) + int(e5s)
 
 
-print("eprloyee 1: " + e1 + "salary: " + e1s)
+print("employee 1: " + e1 + ", salary: " + e1s)
 
-print("eprloyee 2: " + e2 + "salary: " + e2s)
+print("employee 2: " + e2 + ", salary: " + e2s)
 
-print("eprloyee 3: " + e3 + "salary: " + e3s)
+print("employee 3: " + e3 + ", salary: " + e3s)
 
-print("eprloyee 4: " + e4 + "salary: " + e4s)
+print("employee 4: " + e4 + ", salary: " + e4s)
 
-print("eprloyee 5: " + e5 + "salary: " + e5s)
+print("employee 5: " + e5 + ", salary: " + e5s)
 
 
-print("Total salary: " + ts)
 
+print("Total salary: " + str(ts))
