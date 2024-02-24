@@ -1,3 +1,19 @@
+#code 1
+
+'''task:
+
+Write a program to collect the following data from the 3 users.
+1. Name
+2. Amount of Lunch Menu item
+3. Amount of Drink
+
+Calculate and output the Name and the Amount of each person's check including a 10% tip.
+
+eg output. Mike $15.24
+John $ 23.10
+Jane $ 18.40
+
+Then, calculate the total amount for all three together including a 20% tip.'''
 
 
 
@@ -45,8 +61,23 @@ print("The total cost is " + str(v))
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 #code 2
 
+'''Task:
+
+Write a program to accept the yearly salary of five employees (one at a time). Using the Accumulation concept,
+ calculate and display the total salary from all employees combined.'''
 
 
 
@@ -98,7 +129,38 @@ print("Total salary: " + str(ts))
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 #code 3
+
+'''task:
+
+ A movie theater only keeps a percentage of the revenue earned from ticket sales. The
+remainder goes to the distributor. Write a program that calculates a theater’s gross and net
+box ofﬁce proﬁt for a night. The program should ask for the name of the movie, and how
+many adult and child tickets were sold. (The price of an adult ticket is $6.00 and a child’s
+ticket is $3.00.) It should display a report similar to the following:
+
+NOTE: Movies' name should be enclosed within the double quotation.
+
+
+Movie Name: “Wheels of Fury”
+Adult Tickets Sold: 382
+Child Tickets Sold: 127
+Gross Box Ofﬁce Proﬁt: $ 2673.00
+Amount Paid to Distributor: – $ 2138.40
+Net Box Ofﬁce Proﬁt: $ 534.60
+Assume the theater keeps 20 percent of the gross box ofﬁce proﬁt.'''
+
 
 
 
@@ -137,6 +199,4 @@ print("Money paid to the very greedy owner: $" + str("%.2f" % paid))
 vb = float(b - paid)
 
 print("MONEY FRICKIN KEPT: $" + str("%.2f" % vb))
-
-
 
